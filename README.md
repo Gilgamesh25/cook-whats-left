@@ -1,16 +1,40 @@
-# React + Vite
+# 🍳 CookWhat'sLeft
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi pencarian resep masakan berbasis bahan yang kamu miliki. Cukup pilih bahan yang ada di kulkas, Apps akan menampilkan rekomendasi resep yang bisa kamu masak!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Fitur
 
-## React Compiler
+- **Virtual Kulkas Digital** - Pilih bahan makanan yang kamu punya dengan interface grid interaktif
+- **Smart Filtering** - Pencarian resep otomatis berdasarkan bahan yang dipilih
+- **Match Percentage** - Tampilkan tingkat kecocokan bahan (%)
+- **Filter Toleransi** - opsi menampilkan resep yang kurang 1-2 bahan
+- **Detail Resep** - Modal menampilkan bahan lengkap dan langkah memasak
+- **Responsif** - Tampilan optimal di HP dan Desktop
+- **UI/UX Menarik** - Animasi smooth dengan tema hijau segar
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** (Vite)
+- **Tailwind CSS** v4
+- **JavaScript**
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone repository
+git clone https://github.com/USERNAME/cook-whats-left.git
+
+# Masuk ke folder
+cd cook-whats-left
+
+# Install dependencies
+npm install
+
+# Jalankan development server
+npm run dev
