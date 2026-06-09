@@ -1,0 +1,177 @@
+export const recipesData = [
+    {
+      id: 1,
+      title: "Omelet Sayuran",
+      ingredients: ["telur", "bawang bombay", "paprika", "keju", "garam", "minyak"],
+      instructions: "Kocok telur, tumis bawang bombay dan paprika, tuang混合物 ke wajan, masak hingga matang.",
+      time: "10 menit"
+    },
+    {
+      id: 2,
+      title: "Ayam Kecap Simple",
+      ingredients: ["ayam", "kecap", "bawang putih", "bawang bombay", "minyak", "merica"],
+      instructions: "Tumis bawang putih dan bombay, masukkan ayam, tambahkan kecap dan air, masak hingga matang.",
+      time: "25 menit"
+    },
+    {
+      id: 3,
+      title: "Tumis Kangkung",
+      ingredients: ["kangkung", "bawang putih", "garam", "micin", "minyak"],
+      instructions: "Tumis bawang putih, masukkan kangkung, aduk cepat hingga layu, bumbui.",
+      time: "5 menit"
+    },
+    {
+      id: 4,
+      title: "Nasi Goreng Spesial",
+      ingredients: ["nasi", "telur", "bawang merah", "bawang putih", "kecap", "minyak", "ayam suwir"],
+      instructions: "Orak arik telur, tumis bawang merah dan putih, masukkan nasi, aduk rata.",
+      time: "15 menit"
+    },
+    {
+      id: 5,
+      title: "Kentang Goreng Renyah",
+      ingredients: ["kentang", "garam", "minyak"],
+      instructions: "Kupas kentang, potong sticks, goreng hingga keemasan, taburi garam.",
+      time: "20 menit"
+    },
+    {
+      id: 6,
+      title: "Telur Dadar",
+      ingredients: ["telur", "bawang bombay", "garam", "minyak"],
+      instructions: "Kocok telur dengan bawang bombay yang sudah ditumis, goreng di wajan.",
+      time: "5 menit"
+    },
+    {
+      id: 7,
+      title: "Ayam Goreng Mentega",
+      ingredients: ["ayam", "mentega", "bawang putih", "kecap", "garam", "minyak"],
+      instructions: "Goreng ayam hingga matang, tumis mentega dan bawang, tambahkan kecap.",
+      time: "30 menit"
+    },
+    {
+      id: 8,
+      title: "Sop Sayuran Simple",
+      ingredients: ["kentang", "bawang bombay", "wortel", "garam", "air"],
+      instructions: "Rebus air, masukkan kentang dan bawang, masak hingga lunak.",
+      time: "25 menit"
+    },
+    {
+      id: 9,
+      title: "Roti Telur Crispy",
+      ingredients: ["roti", "telur", "keju", "mentega", "garam"],
+      instructions: "Panggang roti, letakkan telur dan keju di atasnya, panggang ulang.",
+      time: "10 menit"
+    },
+    {
+      id: 10,
+      title: "Baked Potato",
+      ingredients: ["kentang", "mentega", "keju", "garam"],
+      instructions: "Panggang kentang hingga lunak, belah, isi mentega dan keju.",
+      time: "40 menit"
+    },
+    {
+      id: 11,
+      title: "Ayam Paprika",
+      ingredients: ["ayam", "paprika", "bawang bombay", "kecap", "bawang putih", "minyak"],
+      instructions: "Tumis ayam dengan paprika dan bawang, tambahkan kecap.",
+      time: "25 menit"
+    },
+    {
+      id: 12,
+      title: "Telur Kentang Balado",
+      ingredients: ["telur", "kentang", "bawang merah", "garam", "minyak"],
+      instructions: "Goreng telur dan kentang, tumis bawang merah, campurkan.",
+      time: "20 menit"
+    },
+    {
+      id: 13,
+      title: "Nasi Goreng Keju",
+      ingredients: ["nasi", "telur", "keju", "bawang putih", "kecap", "minyak"],
+      instructions: "Tumis nasi dengan telur, taburkan keju parut di atas.",
+      time: "15 menit"
+    },
+    {
+      id: 14,
+      title: "Ayam Suwir Rica-Rica",
+      ingredients: ["ayam suwir", "bawang merah", "bawang bombay", "merica", "garam", "minyak"],
+      instructions: "Tumis bawang, masukkan ayam suwir, tambahkan merica dan garam.",
+      time: "15 menit"
+    },
+    {
+      id: 15,
+      title: "Kentang Goreng Keju",
+      ingredients: ["kentang", "keju", "garam", "minyak"],
+      instructions: "Goreng kentang, taburkan keju parut dan garam.",
+      time: "20 menit"
+    },
+    {
+      id: 16,
+      title: "Tumis Paprikatelur",
+      ingredients: ["telur", "paprika", "bawang bombay", "garam", "minyak"],
+      instructions: "Orak arik telur, tumis paprika dan bawang, campurkan.",
+      time: "10 menit"
+    },
+    {
+      id: 17,
+      title: "Ayam Kecap Kentang",
+      ingredients: ["ayam", "kentang", "kecap", "bawang putih", "merica", "minyak"],
+      instructions: "Goreng kentang, tumis ayam dengan bawang, tambahkan kecap.",
+      time: "30 menit"
+    },
+    {
+      id: 18,
+      title: "Nasi Telur Goreng",
+      ingredients: ["nasi", "telur", "bawang merah", "garam", "minyak", "merica"],
+      instructions: "Orak arik telur, campurkan nasi, bumbui dengan bawang dan garam.",
+      time: "10 menit"
+    },
+    {
+      id: 19,
+      title: "Kangkung Goreng Mentega",
+      ingredients: ["kangkung", "mentega", "bawang putih", "garam", "micin"],
+      instructions: "Cairkan mentega, tumis kangkung dengan bawang putih.",
+      time: "5 menit"
+    },
+    {
+      id: 20,
+      title: "Ayam Paprika Keju",
+      ingredients: ["ayam", "paprika", "keju", "bawang bombay", "kecap", "minyak"],
+      instructions: "Tumis ayam dengan paprika dan bawang, taburkan keju.",
+      time: "25 menit"
+    },
+    {
+      id: 21,
+      title: "Telur Kentang Teriyaki",
+      ingredients: ["telur", "kentang", "kecap", "bawang putih", "merica", "minyak"],
+      instructions: "Goreng telur dan kentang, siram dengan kecap yang sudah di tumis.",
+      time: "20 menit"
+    },
+    {
+      id: 22,
+      title: "Nasi Goreng Paprika",
+      ingredients: ["nasi", "telur", "paprika", "bawang bombay", "kecap", "minyak"],
+      instructions: "Tumis nasi dengan telur dan paprika, aduk rata.",
+      time: "15 menit"
+    },
+    {
+      id: 23,
+      title: "Ayam Kangkung Saus Tiram",
+      ingredients: ["ayam", "kangkung", "bawang putih", "kecap", "garam", "minyak"],
+      instructions: "Tumis ayam, masukkan kangkung, tambahkan kecap.",
+      time: "20 menit"
+    },
+    {
+      id: 24,
+      title: "Kentang Telur Scramled",
+      ingredients: ["kentang", "telur", "keju", "bawang bombay", "garam", "minyak"],
+      instructions: "Goreng kentang, orak arik telur, campurkan dengan bawang dan keju.",
+      time: "15 menit"
+    },
+    {
+      id: 25,
+      title: "Mixed Grill",
+      ingredients: ["ayam", "kentang", "paprika", "bawang bombay", "keju", "minyak"],
+      instructions: "Panggang semua bahan, taburkan keju di akhir.",
+      time: "30 menit"
+    }
+  ]
